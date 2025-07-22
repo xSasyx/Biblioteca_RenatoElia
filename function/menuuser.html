@@ -1,0 +1,24 @@
+<div id="nvbr" class="navbar">
+    <a class="closebotton" onclick="closeNav()">&times;</a>
+    <a href="/public_html/indexuser.php"> HOME </a>
+    <a href="/public_html/function/Book.php">Nuovi arrivi</a>
+    <a href="/public_html/gnre.php"> Generi </a>  <!--Lista   ->  libro-->
+    <a href="#">Notizie</a>
+    <a href="#">Contattaci</a>
+    <a href="/public_html/function/logout.php">Logout</a>
+   
+  </div>
+  <br>
+  <span style="cursor: pointer; font-size: 30px; position: absolute;  left: 1%; top:1%;" onclick="openNav()">&#9776</span> <br>
+
+  <script>
+    function openNav() {
+      document.getElementById("nvbr").style.width = "200px";
+      document.getElementById("main").style.marginLeft = "200px";
+    }
+
+    function closeNav() {
+      document.getElementById("nvbr").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>

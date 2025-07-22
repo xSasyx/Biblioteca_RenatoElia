@@ -1,0 +1,134 @@
+*{
+  margin :0;
+  padding:0;
+}
+#banner{
+  background: url(Home.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.text-banner{
+  text-align: center;
+  color: #fff;
+  padding-top: 180px;
+}
+
+.text-banner h1{
+  font-size: 100px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.text-banner p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.more-banner{
+  margin: 70px auto 0;
+}
+
+.more-banner a{
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #fff;
+  border: .5px solid #fff;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s;
+}
+
+.more-banner a span{
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.more-banner a:hover span{
+  width: 100%;
+}
+.more-banner a:hover{
+  color: black;
+}
+
+.navbar {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden; 
+  padding-top: 40px; 
+  transition: 0.3s; 
+}
+
+
+.navbar a {
+  padding: 10px 10px 10px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.navbar a:hover {
+  color: #413f3f;
+}
+
+
+.navbar .closebotton {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 35px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .navbar {padding-top: 15px;}
+  .navbar a {font-size: 18px;}
+}
+
+
+  
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr{background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(226, 181, 0);
+  color: white;
+}

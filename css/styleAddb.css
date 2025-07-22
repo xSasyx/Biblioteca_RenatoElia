@@ -1,0 +1,188 @@
+body{
+    
+    background:url("img3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+                                                                /* CSS FOR ADDBOOK */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.fake-body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.abook-container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;   /*padding 10px body */
+    border-radius: 5px;
+}
+
+.abook-container .abook-title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.abook-container .abook-title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6, black);
+}
+
+.abook-container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+	
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+	
+	}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input[type=date]{
+    color: #111;
+}
+
+.user-details .description-details .description-title{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    
+}
+
+/*.user-details .description-details{
+}*/
+
+textarea{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    width: 408%;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+textarea:focus{
+    border-color: black;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: black;
+}
+
+form .abook-button{
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .abook-button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: black;
+}
+
+.navbar {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 40px; 
+    transition: 0.3s; 
+  }
+  
+  
+  .navbar a {
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .navbar a:hover {
+    color: #413f3f;
+  }
+  
+  
+  .navbar .closebotton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  
+
+@media (max-widht: 584px){
+    .abook-container{
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+}
