@@ -1,8 +1,8 @@
-# Renato Elia School Library Project
+# ITI Renato Elia School Library Project
 
 ##  Introduction
 
-This project is a **Web Application** for managing the library of the "Renato Elia" school, developed as a project for the final high school exam (Esame di Maturità). The main objective was to create a functional and robust software system capable of handling user registration, book cataloging, and loan operations.
+This project is a **Web Application** for managing the library of the "ITI Renato Elia" school, developed as a project for the final high school exam (Esame di Maturità). The main objective was to create a functional and robust software system capable of handling user registration, book cataloging, and loan operations.
 
 Although the user interface (UI) was intentionally kept simple and minimal, great emphasis was placed on the **technical and security aspects** of development to ensure a stable and secure application.
 
@@ -55,11 +55,11 @@ The project demonstrates a solid understanding of basic web security principles.
 
 ------------------------------------------------ITALINO---------------------------------------------------------------------------
 
-# Progetto Biblioteca Scolastica "Renato Elia"
+# Progetto Biblioteca Scolastica "ITI Renato Elia"
 
 ##  Introduzione
 
-Questo progetto è una **Web Application** per la gestione della biblioteca dell'istituto scolastico "Renato Elia", sviluppato come elaborato per l'Esame di Maturità. L'obiettivo principale era la creazione di un sistema software funzionale e robusto, in grado di gestire le operazioni di registrazione utenti, catalogazione dei libri e prestiti.
+Questo progetto è una **Web Application** per la gestione della biblioteca dell'istituto scolastico "ITI Renato Elia", sviluppato come elaborato per l'Esame di Maturità. L'obiettivo principale era la creazione di un sistema software funzionale e robusto, in grado di gestire le operazioni di registrazione utenti, catalogazione dei libri e prestiti.
 
 Sebbene l'interfaccia utente (UI) sia stata mantenuta volutamente semplice e minimale, è stata posta grande enfasi sullo sviluppo del **lato tecnico e della sicurezza**, per garantire un'applicazione stabile e sicura.
 
