@@ -75,7 +75,7 @@ Il sistema è diviso in due aree principali con funzionalità distinte: l'Area U
 * **Prestito Libri**: Un utente può prendere in prestito un libro disponibile. Il sistema implementa una regola fondamentale: **ogni utente può avere un massimo di due libri** in prestito contemporaneamente.
 * **Ricevuta via Email**: Al momento della prenotazione di un libro, il sistema è predisposto per inviare una **email di conferma** all'indirizzo dell'utente, attestando l'avvenuto prestito (come visibile in `booking.php` che include `email/email.php`).
 
-### 🛠 Funzionalità Amministratore
+###  Funzionalità Amministratore
 * **Pannello di Controllo Riservato**: L'amministratore ha un accesso separato e protetto, che lo reindirizza a una dashboard dedicata (`indexadmin.php`).
 * **Aggiunta Libri**: L'admin è l'unico utente autorizzato ad arricchire il catalogo della biblioteca. Attraverso un apposito modulo (`addbook.php`), può inserire nuovi volumi completi di ogni dettaglio: titolo, autore, ISBN, casa editrice, genere, etc..
 
